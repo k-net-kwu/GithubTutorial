@@ -5,8 +5,10 @@ def hello(name : str) -> None:
   
   
 def main(): 
+  print(f'This is function main')
   NAME = 'Your name'
   hello(NAME)
+  
   
 if __name__ == '__main__':
   main()
