@@ -7,9 +7,11 @@ def bye(name : str) -> None:
   print(f'bye {name}!') 
   
 def main(): 
+  print(f'This is function main')
   NAME = 'Your name'
   hello(NAME)
   bye(NAME)
+
 
 if __name__ == '__main__':
   main()
